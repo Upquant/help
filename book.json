@@ -1,31 +1,23 @@
-
 {
-    "plugins": [
-        "advanced-emoji",
-      "-back-to-top-button",
-      "-lunr",
-      "-search",
-      "search-pro",
-      "-copy-code-button",
-      "-expandable-chapters-small",
-      "splitter",
-      "-popup",
-      "insert-logo",
-      "expandable-chapters",
-      "ancre-navigation",
-      "-page-treeview",
-      "-theme-faq",
-      "-sharing",
-      "chapter-fold",
-      "github"
-    ],
-    "pluginsConfig": {
-      "insert-logo": {
-        "url": "http://cdn.upchina.com/uptest/201904/1554197285005_20190402172805_add0dc3e2dbf4b21.jpg",
-        "style": "background: none; max-height: 60px; min-height: 60px"
-      },
-       "github": {
-            "url": "https://github.com/Upquant/help"
-        }
-    }
+  "plugins": [
+    "advanced-emoji",
+    "-back-to-top-button",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "-copy-code-button",
+    "-expandable-chapters-small",
+    "splitter",
+    "-popup",
+    "expandable-chapters",
+    "ancre-navigation",
+    "-page-treeview",
+    "-theme-faq",
+    "-sharing"
+  ],
+  "language": "zh-hans",
+
+  "styles": {
+    "website": "style/override.css"
+  }
 }
