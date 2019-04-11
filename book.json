@@ -16,7 +16,7 @@
     "-sharing"
   ],
   "language": "zh-hans",
-
+  
   "styles": {
     "website": "style/override.css"
   }

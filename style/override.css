@@ -2,6 +2,17 @@
 #book-search-input input,
 #book-search-input input:focus,
 #book-search-input input:hover{display:block;font-size:14px;line-height:20px;background:#fff url(https://cdn.upchina.com/project/miniUpHelpCenterAsset/images/icon_search.png) no-repeat 12px center;padding: 7px 7px 7px 40px;border-radius: 5px;border:1px solid #e5e5e5;outline:none;box-shadow: none;}
-/* .book-summary{width:240px;}
-.book-body{left:240px !important;} */
+.book-summary{width:240px;}
+/* .book-body{left:240px !important;position: absolute;} */
 .page-inner{color:#333;max-width: 85%;padding:0 0 0 0;}
+
+.book.with-summary .book-body {
+    left: 240px;
+}
+
+@media (min-width: 600px){
+    .book.with-summary .book-body {
+        left: 240px;
+    }
+}
+
